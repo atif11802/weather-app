@@ -1,0 +1,57 @@
+.app{
+  background-image:url(./img/cold-bg.jpg);
+  background-position: center;
+  height: 600px;
+  background-repeat: no-repeat;
+
+}
+
+.app.warm{
+  background-image:url(./img/warm-bg.jpg);
+  background-position: center;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+
+.search-box{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.date{
+  text-align: center;
+}
+
+.weather{
+  text-align: center;
+  
+}
+
+.weather h1{
+  font-size:57px;
+}
+
+
+.weather h3{
+  font-size:32px;
+  text-overflow:clip;
+}
+
+@media screen and (max-width:600px){
+  .search-bar{
+    width: 60%;
+    
+  }
+}
